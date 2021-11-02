@@ -11,6 +11,43 @@ ol {
 a {
 	text-decoration: none;
 }
+body{
+    margin : 0;
+}
+.bar-nav a{
+    text-decoration: none;
+    color : white;
+}
+.bar-nav {
+   display : flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #263343;
+   padding:100px 12px 0px;
+}
+.bar_logo {
+    font-size: 50px;
+    color : white;
+}
+.menu-bar {
+    display: flex;
+    list-style: none;
+    padding-left: none;
+}
+.menu-bar li{
+    padding: 10px 50px;
+}
+.menu-bar li:hover{
+    background-color: #d49466;
+    border-radius: 2px;
+}
+.util {
+    display: flex;
+    list-style: none;
+}
+.util li{
+    padding: 8px 12px;
+}
 
 /* header */
 header {
@@ -110,16 +147,16 @@ figure .inner a:hover {
 	background: #fff;
 	color: #555;
 }
-nav .img {
+.body-nav .img {
     width : 100%;
 }
-nav .container-1{
+.body-nav .container-1{
 	width: 800px;
 	vertical-align: middle;
 	white-space: nowrap;
 	position: relative;
   }
-nav .container-1 .icon{
+.body-nav .container-1 .icon{
 	position: absolute;
 	top: 50%;
 	margin-left: 17px;
@@ -127,7 +164,7 @@ nav .container-1 .icon{
 	z-index: 1;
 	color: #4f5b66;
   }
-nav .container-1 input#search{
+.body-nav .container-1 input#search{
 	width: 800px;
 	height: 50px;
 	background: #ffffff;
@@ -249,4 +286,22 @@ footer .inner .lower p {
 	width: 100%;
 	font: 12px/1 "arial";
 	color: #777;
+}
+
+@media screen and (max-width:768px) {
+    .bar-nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .menu-bar{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .bar-nav .inner .util{
+        flex-direction: column;
+        align-items:flex-start;
+        width:100%;
+    }
 }
