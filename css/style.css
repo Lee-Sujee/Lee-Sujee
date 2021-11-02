@@ -110,6 +110,9 @@ figure .inner a:hover {
 	background: #fff;
 	color: #555;
 }
+nav .img {
+    width : 100%;
+}
 nav .container-1{
 	width: 800px;
 	vertical-align: middle;
