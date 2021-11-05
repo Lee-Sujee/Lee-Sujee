@@ -161,14 +161,19 @@ figure .inner a:hover {
 	background: #fff;
 	color: #555;
 }
+.body-nav{
+   justify-content: center;
+   
+}
 .body-nav .img {
     width : 100%;
 }
 .body-nav .container-1{
-	width: 800px;
+	width: 80%;
 	vertical-align: middle;
 	white-space: nowrap;
 	position: relative;
+
   }
 .body-nav .container-1 .icon{
 	position: absolute;
