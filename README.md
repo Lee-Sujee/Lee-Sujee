@@ -6,4 +6,4 @@
 />
 </a>
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tnwl5162@naver.com)](https://solved.ac/tnwl5162@naver.com/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tnwl5162)](https://solved.ac/tnwl5162/)
