@@ -1,7 +1,6 @@
 
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1e8f4d,100:1e8f4d&height=150&text=백엔드%20개발자%20이수지%20입니다&animation=fadeIn&fontColor=ffffff&fontSize=30)
 <!--
 <div align=center>📚 STACKS</div>
 
